@@ -33,10 +33,6 @@ Explore a world where data meets logic and schemas tell stories. 🧠🔍
 └── 📜 README.md           ── Repository overview (you are here 🎯)
 ````
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3l2ZnY0YjU4NGVreWg3NjFnc3lkZmV6ZGRrdjFscTU0a2Uxb2VhNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VbnUQpnihPSIgIXuZv/giphy.gif" width="130" alt="folder GIF"/>
-</p>
-
 ---
 
 ## ✨ Features

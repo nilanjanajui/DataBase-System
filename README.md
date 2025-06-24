@@ -91,6 +91,7 @@ git clone https://github.com/nilanjanajui/Database-System.git
 
 2️⃣ **Open `.sql` files in**:
 
+* VS Code (Using Oracle SQL Developer Extention)
 * Oracle SQL Developer
 * MySQL Workbench
 * Command-line using `sqlplus`

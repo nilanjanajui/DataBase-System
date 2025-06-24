@@ -66,9 +66,9 @@ Explore a world where data meets logic and schemas tell stories. 🧠🔍
 
 ## 🧪 Projects
 
-### 📌 Clinical Trials DB
+### 📌 🧬 Drug Network DB System
 
-A complete schema for managing clinical trials involving drugs, diseases, side effects, and researchers.
+A relational database design project that models the relationships between drugs, diseases, clinical trials, researchers, institutions, and more — using real-world-inspired medical data.
 
 ```sql
 -- Sample Table

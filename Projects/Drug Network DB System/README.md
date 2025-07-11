@@ -1,16 +1,16 @@
-# 🧬 Structured Drug Database – Mini Project
+#  Drug Network DB System – Mini Project
 
 A fully normalized relational database system designed from a raw Excel dataset involving drugs, diseases, clinical trials, and related metadata. This mini project demonstrates the end-to-end process of building a clean database schema using ER modeling, normalization theory, SQL implementation, and documentation.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project was designed to transform a messy and redundant clinical data spreadsheet into a structured, scalable, and query-efficient relational database. It involved ER modeling, dependency analysis, normalization proofs (up to BCNF), schema implementation in Oracle SQL, and sample query development.
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 - ✅ Designed an ER diagram with proper relationships (1:1, 1:N, M:N, recursive, weak entities)
 - ✅ Normalized all relations to 3NF and BCNF with formal proofs
@@ -21,7 +21,7 @@ This project was designed to transform a messy and redundant clinical data sprea
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ---plaintext
 ├── ER-Diagrams/ → PDF & PNG versions of ER Diagram and Procedure Flowchart
 ├── SQL/ → All SQL schema creation & queries
@@ -37,7 +37,7 @@ This project was designed to transform a messy and redundant clinical data sprea
 
 ---
 
-## 📘 Entity Tables
+## Entity Tables
 
 - Drug (drug_id, drug_name, drug_category)  
 - Disease (disease_name, disease_category)  
@@ -47,7 +47,7 @@ This project was designed to transform a messy and redundant clinical data sprea
 - SideEffect (side_effect_name)  
 - Condition (condition_name)
 
-## 🔗 Relation Tables
+## Relation Tables
 
 - Treats (drug_id, disease_name)  
 - HasSideEffect (drug_id, side_effect_name)  
@@ -55,21 +55,21 @@ This project was designed to transform a messy and redundant clinical data sprea
 - StudiedIn (clinical_trial_title, condition_name)  
 - InteractsWith (drug_id, interacts_with_name)
 
-## 📚 Documentation
+## Documentation
 
 - Functional Dependencies for all relations  
 - Attribute Closure and Dependency Preservation proof  
 - Lossless Decomposition validation  
 - All tables verified to satisfy BCNF
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Oracle SQL  
 - Python (for data preparation & ID mapping)  
 - Draw.io (for ER diagrams)  
 - LaTeX (for report and proofs)
 
-## 📸 Screenshots
+##  Screenshots
 
 Include:
 - ER diagram  
@@ -77,7 +77,7 @@ Include:
 - Table sample  
 - Query output (e.g. drug_id with most trials)
 
-## 📬 Author
+## Author
 
 Nilanjana Das Jui  
 🎓 4th Semester, CSE, CU

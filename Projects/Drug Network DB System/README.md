@@ -2,9 +2,13 @@
 
 A fully normalized relational database system designed from a raw Excel dataset involving drugs, diseases, clinical trials, and related metadata. This mini project demonstrates the end-to-end process of building a clean database schema using ER modeling, normalization theory, SQL implementation, and documentation.
 
+---
+
 ## 📌 Project Overview
 
 This project was designed to transform a messy and redundant clinical data spreadsheet into a structured, scalable, and query-efficient relational database. It involved ER modeling, dependency analysis, normalization proofs (up to BCNF), schema implementation in Oracle SQL, and sample query development.
+
+---
 
 ## 🎯 Key Features
 
@@ -15,8 +19,10 @@ This project was designed to transform a messy and redundant clinical data sprea
 - ✅ Created a procedural flowchart showing the full design process
 - ✅ Developed complex queries for analysis (e.g. top side effects, common drugs, etc.)
 
-## 📁 Folder Structure
 ---
+
+## 📁 Folder Structure
+---plaintext
 ├── ER-Diagrams/ → PDF & PNG versions of ER Diagram and Procedure Flowchart
 ├── SQL/ → All SQL schema creation & queries
 │ ├── create_tables.sql
@@ -29,6 +35,7 @@ This project was designed to transform a messy and redundant clinical data sprea
 └── Screenshots/ → Sample query outputs & schema previews
 ---
 
+---
 
 ## 📘 Entity Tables
 

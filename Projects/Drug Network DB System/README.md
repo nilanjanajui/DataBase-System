@@ -22,7 +22,7 @@ This project was designed to transform a messy and redundant clinical data sprea
 ---
 
 ## Folder Structure
----plaintext
+```plaintext
 ├── ER-Diagrams/ → PDF & PNG versions of ER Diagram and Procedure Flowchart
 ├── SQL/ → All SQL schema creation & queries
 │ ├── create_tables.sql
@@ -33,7 +33,7 @@ This project was designed to transform a messy and redundant clinical data sprea
 ├── Report/ → Normalization proofs, FD analysis, LaTeX documentation
 │ └── DB_Report.pdf
 └── Screenshots/ → Sample query outputs & schema previews
----
+```
 
 ---
 

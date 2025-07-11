@@ -23,16 +23,33 @@ This project was designed to transform a messy and redundant clinical data sprea
 
 ## Folder Structure
 ```plaintext
-├── ER-Diagrams/ → PDF & PNG versions of ER Diagram and Procedure Flowchart
-├── SQL/ → All SQL schema creation & queries
-│ ├── create_tables.sql
-│ ├── insert_data.sql
-│ └── queries.sql
-├── Python/ → Data preprocessing script
-│ └── data_preprocessing.py
-├── Report/ → Normalization proofs, FD analysis, LaTeX documentation
-│ └── DB_Report.pdf
-└── Screenshots/ → Sample query outputs & schema previews
+📁 DrugNetworkDBSystem/
+
+├── README.md                        ← Project description and documentation  
+├── history.log                      ← Terminal or development log  
+
+├── DataProcessing/                  ← Python and dataset
+│   ├── newpython.py                 ← Data cleaning and ID mapping script  
+│   └── sampleInformation.csv        ← Raw dataset (source for all tables)
+│   └── schema2.sql                      ← Alternative or merged schema script
+
+├── ER_Diagram/                      ← Entity-Relationship model
+│   └── DRUGs ER Diagram.pdf         ← Final ER diagram  
+
+├── TableCreation/                   ← SQL scripts for table creation  
+│   ├── Create_Flat_Table.sql        ← Create original DRUGS_FULL table  
+│   ├── CreateNormTables.sql         ← Create normalized entity tables  
+│   ├── CreateRelationTable.sql      ← Create relationship tables  
+│   └── pk_FK.sql                     ← Add Primary and Foreign Keys  
+
+├── InsertionData/                   ← Data population scripts  
+│   ├── insert_Flat_Table_Data.sql   ← Insert data into DRUGS_FULL  
+│   ├── insert_Norm_Tables_data.sql  ← Insert into entity tables  
+│   └── insert_Relation_tables_data.sql ← Insert into relation tables  
+
+├── Queries/                         ← Analysis and assignment queries  
+│   └── QuestionQueries.sql          ← Solutions to all assignment questions  
+
 ```
 
 ---

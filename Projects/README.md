@@ -45,7 +45,6 @@ All projects follow a **structured workflow**:
 |--------------|------------|-----------------|----------------|
 | **DataBase Design Studio** | Database design & normalization demonstration | ER modeling, relational schema creation, normalization step-by-step | [ER Diagram](./DataBase%20Design%20Studio/assets/ER_Diagram.png), [Workflow UI](./DataBase%20Design%20Studio/assets/Workflow.png) |
 | **Drug Network DB System** | Drug, disease, side-effects & clinical trials DB | Drug interactions, disease mapping, side-effect tracking, clinical trial logs, workflow management | [ER Diagram](./Drug%20Network%20DB%20System/ER%20Diagram/ER.png), [Flowchart](./Drug%20Network%20DB%20System/ER%20Diagram/Flowchart.png) |
-| **React DBMS Workflow System** | Interactive DBMS workflow visualizer | Draggable workflow nodes, dynamic code & table viewers, live ER diagrams | [Preview](./React_DBMS_System/assets/workflow_ui.png) |
 
 ---
 
@@ -115,11 +114,6 @@ By completing these projects, you gain:
 
 ---
 
-### React DBMS Workflow System
-**Workflow UI Preview:**  
-![React DBMS UI](./React_DBMS_System/assets/workflow_ui.png)  
-
----
 
 ## 🌟 Why This Repository?  
 

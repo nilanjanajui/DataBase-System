@@ -1,0 +1,141 @@
+// ER Diagram
+digraph {
+	nodesep=0.3 rankdir=TB ranksep=0.5 splines=curved
+	graph [dpi=300]
+	node [fontname=Helvetica fontsize=20 shape=plaintext]
+	"3NF_table1" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table1</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="product_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>product_name (PK)</B></FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><I>drug_name (FK)</I></FONT></TD></TR></TABLE>>]
+	"3NF_table2" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table2</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="side_effect" ALIGN="LEFT"><FONT POINT-SIZE="14">side_effect</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table3" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table3</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="interacts_with" ALIGN="LEFT"><FONT POINT-SIZE="14">interacts_with</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table4" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table4</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="disease_category" ALIGN="LEFT"><FONT POINT-SIZE="14">disease_category</FONT></TD></TR><TR><TD PORT="disease_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>disease_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table5" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table5</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="clinical_trial_title" ALIGN="LEFT"><FONT POINT-SIZE="14">clinical_trial_title</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table6" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table6</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="clinical_trial_start_date" ALIGN="LEFT"><FONT POINT-SIZE="14">clinical_trial_start_date</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table7" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table7</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="clinical_trial_completion_date" ALIGN="LEFT"><FONT POINT-SIZE="14">clinical_trial_completion_date</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table8" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table8</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="clinical_trial_participants" ALIGN="LEFT"><FONT POINT-SIZE="14">clinical_trial_participants</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table9" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table9</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="clinical_trial_status" ALIGN="LEFT"><FONT POINT-SIZE="14">clinical_trial_status</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table10" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table10</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="clinical_trial_condition" ALIGN="LEFT"><FONT POINT-SIZE="14">clinical_trial_condition</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table11" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table11</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="country" ALIGN="LEFT"><FONT POINT-SIZE="14">country</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table12" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table12</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="clinical_trial_institution" ALIGN="LEFT"><FONT POINT-SIZE="14">clinical_trial_institution</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table13" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table13</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="clinical_trial_address" ALIGN="LEFT"><FONT POINT-SIZE="14">clinical_trial_address</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table14" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table14</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="clinical_trial_main_researcher" ALIGN="LEFT"><FONT POINT-SIZE="14">clinical_trial_main_researcher</FONT></TD></TR><TR><TD PORT="drug_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table15" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="18" COLOR="#4b555c" STYLE="ROUNDED">
+            <TR>
+                <TD BGCOLOR="#4b555c" ALIGN="CENTER" WIDTH="320" HEIGHT="20">
+                    <FONT COLOR="white" POINT-SIZE="20"><B>3NF_table15</B></FONT>
+                </TD>
+            </TR>
+        <TR><TD PORT="product_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>product_name (PK)</B></FONT></TD></TR><TR><TD PORT="drug_category" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>drug_category (PK)</B></FONT></TD></TR><TR><TD PORT="disease_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>disease_name (PK)</B></FONT></TD></TR><TR><TD PORT="company_name" ALIGN="LEFT"><FONT POINT-SIZE="14"><B>company_name (PK)</B></FONT></TD></TR></TABLE>>]
+	"3NF_table1":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table2":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table3":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table5":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table6":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table7":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table8":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table9":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table10":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table11":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table12":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table13":drug_name -> "3NF_table14":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table14":drug_name -> "3NF_table13":drug_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table15":product_name -> "3NF_table1":product_name [arrowhead=normal color="#4b555c" fontsize=10]
+	"3NF_table15":disease_name -> "3NF_table4":disease_name [arrowhead=normal color="#4b555c" fontsize=10]
+}

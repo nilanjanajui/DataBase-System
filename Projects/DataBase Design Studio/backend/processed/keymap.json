@@ -1,0 +1,443 @@
+{
+  "3NF_table1": {
+    "primary_keys": [
+      "product_name"
+    ],
+    "candidate_keys": [
+      [
+        "product_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "drug_name",
+        "product_name"
+      ],
+      [
+        "product_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "product_name",
+      "drug_name"
+    ]
+  },
+  "3NF_table2": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "drug_name",
+        "side_effect"
+      ],
+      [
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "side_effect",
+      "drug_name"
+    ]
+  },
+  "3NF_table3": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "drug_name"
+      ],
+      [
+        "drug_name",
+        "interacts_with"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "interacts_with",
+      "drug_name"
+    ]
+  },
+  "3NF_table4": {
+    "primary_keys": [
+      "disease_name"
+    ],
+    "candidate_keys": [
+      [
+        "disease_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "disease_name"
+      ],
+      [
+        "disease_category",
+        "disease_name"
+      ]
+    ],
+    "foreign_keys": {},
+    "attributes": [
+      "disease_category",
+      "disease_name"
+    ]
+  },
+  "3NF_table5": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "drug_name"
+      ],
+      [
+        "clinical_trial_title",
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "clinical_trial_title",
+      "drug_name"
+    ]
+  },
+  "3NF_table6": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "drug_name"
+      ],
+      [
+        "clinical_trial_start_date",
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "clinical_trial_start_date",
+      "drug_name"
+    ]
+  },
+  "3NF_table7": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "drug_name"
+      ],
+      [
+        "clinical_trial_completion_date",
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "clinical_trial_completion_date",
+      "drug_name"
+    ]
+  },
+  "3NF_table8": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "clinical_trial_participants",
+        "drug_name"
+      ],
+      [
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "clinical_trial_participants",
+      "drug_name"
+    ]
+  },
+  "3NF_table9": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "drug_name"
+      ],
+      [
+        "clinical_trial_status",
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "clinical_trial_status",
+      "drug_name"
+    ]
+  },
+  "3NF_table10": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "clinical_trial_condition",
+        "drug_name"
+      ],
+      [
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "clinical_trial_condition",
+      "drug_name"
+    ]
+  },
+  "3NF_table11": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "drug_name"
+      ],
+      [
+        "country",
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "country",
+      "drug_name"
+    ]
+  },
+  "3NF_table12": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "clinical_trial_institution",
+        "drug_name"
+      ],
+      [
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "clinical_trial_institution",
+      "drug_name"
+    ]
+  },
+  "3NF_table13": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "clinical_trial_address",
+        "drug_name"
+      ],
+      [
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table14",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "clinical_trial_address",
+      "drug_name"
+    ]
+  },
+  "3NF_table14": {
+    "primary_keys": [
+      "drug_name"
+    ],
+    "candidate_keys": [
+      [
+        "drug_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "drug_name"
+      ],
+      [
+        "clinical_trial_main_researcher",
+        "drug_name"
+      ]
+    ],
+    "foreign_keys": {
+      "drug_name": {
+        "ref_table": "3NF_table13",
+        "ref_column": "drug_name"
+      }
+    },
+    "attributes": [
+      "clinical_trial_main_researcher",
+      "drug_name"
+    ]
+  },
+  "3NF_table15": {
+    "primary_keys": [
+      "company_name",
+      "disease_name",
+      "drug_category",
+      "product_name"
+    ],
+    "candidate_keys": [
+      [
+        "company_name",
+        "disease_name",
+        "drug_category",
+        "product_name"
+      ]
+    ],
+    "superkeys": [
+      [
+        "company_name",
+        "disease_name",
+        "drug_category",
+        "product_name"
+      ]
+    ],
+    "foreign_keys": {
+      "product_name": {
+        "ref_table": "3NF_table1",
+        "ref_column": "product_name"
+      },
+      "disease_name": {
+        "ref_table": "3NF_table4",
+        "ref_column": "disease_name"
+      }
+    },
+    "attributes": [
+      "product_name",
+      "drug_category",
+      "disease_name",
+      "company_name"
+    ]
+  }
+}

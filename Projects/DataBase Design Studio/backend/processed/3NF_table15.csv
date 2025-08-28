@@ -1,0 +1,202 @@
+disease_name,drug_category,product_name,company_name
+adenocarcinoma,antineoplastic agents,erbitux,imclone llc
+complementary component deficiency,antineoplastic agents,erbitux,imclone llc
+"igg receptor i, phagocytic, familial deficiency of",antineoplastic agents,erbitux,imclone llc
+lupus erythematosus,antineoplastic agents,erbitux,imclone llc
+lymphoma,antineoplastic agents,erbitux,imclone llc
+neutropenia,antineoplastic agents,erbitux,imclone llc
+nonsmall cell lung cancer,antineoplastic agents,erbitux,imclone llc
+viral infection,antineoplastic agents,erbitux,imclone llc
+"adenocarcinoma of lung, response to tyrosine kinase inhibitor in, 211980",antineoplastic agents,erbitux,imclone llc
+"c1q deficiency, type a",antineoplastic agents,erbitux,imclone llc
+"c1q deficiency, type b",antineoplastic agents,erbitux,imclone llc
+"c1s deficiency, isolated",antineoplastic agents,erbitux,imclone llc
+"lupus nephritis, susceptibility to",antineoplastic agents,erbitux,imclone llc
+"lymphoma, progression of",antineoplastic agents,erbitux,imclone llc
+"neutropenia, alloimmune neonatal",antineoplastic agents,erbitux,imclone llc
+"nonsmall cell lung cancer, response to tyrosine kinase inhibitor in, 211980",antineoplastic agents,erbitux,imclone llc
+"viral infections, recurrent",antineoplastic agents,erbitux,imclone llc
+"interleukin-2 receptor, alpha chain, deficiency of",antineoplastic agents,ontak,eisai inc.
+severe combined immunodeficiency,antineoplastic agents,ontak,eisai inc.
+combined immunodeficiency,antineoplastic agents,ontak,eisai inc.
+"combined immunodeficiency, x-linked, moderate, 312863",antineoplastic agents,ontak,eisai inc.
+"severe combined immunodeficiency, x-linked, 300400",antineoplastic agents,ontak,eisai inc.
+asthma,antirheumatic agents,enbrel,immunex corporation
+,,,
+asthma,immunomodulatory agents,enbrel,immunex corporation
+complementary component deficiency,antirheumatic agents,enbrel,immunex corporation
+complementary component deficiency,immunomodulatory agents,enbrel,immunex corporation
+dementia,antirheumatic agents,enbrel,immunex corporation
+dementia,immunomodulatory agents,enbrel,immunex corporation
+"igg receptor i, phagocytic, familial deficiency of",antirheumatic agents,enbrel,immunex corporation
+"igg receptor i, phagocytic, familial deficiency of",immunomodulatory agents,enbrel,immunex corporation
+lupus erythematosus,antirheumatic agents,enbrel,immunex corporation
+lupus erythematosus,immunomodulatory agents,enbrel,immunex corporation
+lymphoma,antirheumatic agents,enbrel,immunex corporation
+lymphoma,immunomodulatory agents,enbrel,immunex corporation
+malaria,antirheumatic agents,enbrel,immunex corporation
+malaria,immunomodulatory agents,enbrel,immunex corporation
+migraine,antirheumatic agents,enbrel,immunex corporation
+migraine,immunomodulatory agents,enbrel,immunex corporation
+myocardial infarction,antirheumatic agents,enbrel,immunex corporation
+myocardial infarction,immunomodulatory agents,enbrel,immunex corporation
+neutropenia,antirheumatic agents,enbrel,immunex corporation
+neutropenia,immunomodulatory agents,enbrel,immunex corporation
+sepsis,antirheumatic agents,enbrel,immunex corporation
+sepsis,immunomodulatory agents,enbrel,immunex corporation
+viral infection,antirheumatic agents,enbrel,immunex corporation
+viral infection,immunomodulatory agents,enbrel,immunex corporation
+"asthma, susceptibility to, 600807",antirheumatic agents,enbrel,immunex corporation
+"asthma, susceptibility to, 600807",immunomodulatory agents,enbrel,immunex corporation
+"c1q deficiency, type a",antirheumatic agents,enbrel,immunex corporation
+"c1q deficiency, type a",immunomodulatory agents,enbrel,immunex corporation
+"c1q deficiency, type b",antirheumatic agents,enbrel,immunex corporation
+"c1q deficiency, type b",immunomodulatory agents,enbrel,immunex corporation
+"c1s deficiency, isolated",antirheumatic agents,enbrel,immunex corporation
+"c1s deficiency, isolated",immunomodulatory agents,enbrel,immunex corporation
+"dementia, vascular, susceptibility to",antirheumatic agents,enbrel,immunex corporation
+"dementia, vascular, susceptibility to",immunomodulatory agents,enbrel,immunex corporation
+"lupus nephritis, susceptibility to",antirheumatic agents,enbrel,immunex corporation
+"lupus nephritis, susceptibility to",immunomodulatory agents,enbrel,immunex corporation
+"lymphoma, progression of",antirheumatic agents,enbrel,immunex corporation
+"lymphoma, progression of",immunomodulatory agents,enbrel,immunex corporation
+"malaria, cerebral, susceptibility to",antirheumatic agents,enbrel,immunex corporation
+"malaria, cerebral, susceptibility to",immunomodulatory agents,enbrel,immunex corporation
+"migraine without aura, susceptibility to, 157300",antirheumatic agents,enbrel,immunex corporation
+"migraine without aura, susceptibility to, 157300",immunomodulatory agents,enbrel,immunex corporation
+"myocardial infarction, susceptibility to",antirheumatic agents,enbrel,immunex corporation
+"myocardial infarction, susceptibility to",immunomodulatory agents,enbrel,immunex corporation
+"neutropenia, alloimmune neonatal",antirheumatic agents,enbrel,immunex corporation
+"neutropenia, alloimmune neonatal",immunomodulatory agents,enbrel,immunex corporation
+"septic shock, susceptibility to",antirheumatic agents,enbrel,immunex corporation
+"septic shock, susceptibility to",immunomodulatory agents,enbrel,immunex corporation
+"viral infections, recurrent",antirheumatic agents,enbrel,immunex corporation
+"viral infections, recurrent",immunomodulatory agents,enbrel,immunex corporation
+alzheimer disease,thrombolytic agents,kinlytic,"imarx therapeutics, inc."
+"conjunctivitis, ligneous",thrombolytic agents,kinlytic,"imarx therapeutics, inc."
+plasminogen deficiency,thrombolytic agents,kinlytic,"imarx therapeutics, inc."
+"alzheimer disease, late-onset, susceptibility to, 104300",thrombolytic agents,kinlytic,"imarx therapeutics, inc."
+"conjunctivitis, ligneous, 217090",thrombolytic agents,kinlytic,"imarx therapeutics, inc."
+plasminogen tochigi disease,thrombolytic agents,kinlytic,"imarx therapeutics, inc."
+complementary component deficiency,anticoagulants,reopro,eli lilly and company
+complementary component deficiency,antiplatelet agents,reopro,eli lilly and company
+glanzmann thrombasthenia,anticoagulants,reopro,eli lilly and company
+glanzmann thrombasthenia,antiplatelet agents,reopro,eli lilly and company
+"igg receptor i, phagocytic, familial deficiency of",anticoagulants,reopro,eli lilly and company
+"igg receptor i, phagocytic, familial deficiency of",antiplatelet agents,reopro,eli lilly and company
+lupus erythematosus,anticoagulants,reopro,eli lilly and company
+lupus erythematosus,antiplatelet agents,reopro,eli lilly and company
+lymphoma,anticoagulants,reopro,eli lilly and company
+lymphoma,antiplatelet agents,reopro,eli lilly and company
+neutropenia,anticoagulants,reopro,eli lilly and company
+neutropenia,antiplatelet agents,reopro,eli lilly and company
+viral infection,anticoagulants,reopro,eli lilly and company
+viral infection,antiplatelet agents,reopro,eli lilly and company
+"c1q deficiency, type a",anticoagulants,reopro,eli lilly and company
+"c1q deficiency, type a",antiplatelet agents,reopro,eli lilly and company
+"c1q deficiency, type b",anticoagulants,reopro,eli lilly and company
+"c1q deficiency, type b",antiplatelet agents,reopro,eli lilly and company
+"c1s deficiency, isolated",anticoagulants,reopro,eli lilly and company
+"c1s deficiency, isolated",antiplatelet agents,reopro,eli lilly and company
+"glanzmann thrombasthenia, type b",anticoagulants,reopro,eli lilly and company
+"glanzmann thrombasthenia, type b",antiplatelet agents,reopro,eli lilly and company
+asthma,anti-inflammatory agents,myoxin,"gm  pharamceuticals, inc"
+atherosclerosis,anti-inflammatory agents,myoxin,"gm  pharamceuticals, inc"
+cortisol resistance,anti-inflammatory agents,myoxin,"gm  pharamceuticals, inc"
+malaria,anti-inflammatory agents,myoxin,"gm  pharamceuticals, inc"
+obesity,anti-inflammatory agents,myoxin,"gm  pharamceuticals, inc"
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,myoxin,"gm  pharamceuticals, inc"
+"atherosclerosis, susceptibility to",anti-inflammatory agents,myoxin,"gm  pharamceuticals, inc"
+"malaria, resistance to, 248310",anti-inflammatory agents,myoxin,"gm  pharamceuticals, inc"
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,myoxin,"gm  pharamceuticals, inc"
+asthma,anti-inflammatory agents,trioxin,"vertical pharmaceuticals, inc"
+atherosclerosis,anti-inflammatory agents,trioxin,"vertical pharmaceuticals, inc"
+cortisol resistance,anti-inflammatory agents,trioxin,"vertical pharmaceuticals, inc"
+malaria,anti-inflammatory agents,trioxin,"vertical pharmaceuticals, inc"
+obesity,anti-inflammatory agents,trioxin,"vertical pharmaceuticals, inc"
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,trioxin,"vertical pharmaceuticals, inc"
+"atherosclerosis, susceptibility to",anti-inflammatory agents,trioxin,"vertical pharmaceuticals, inc"
+"malaria, resistance to, 248310",anti-inflammatory agents,trioxin,"vertical pharmaceuticals, inc"
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,trioxin,"vertical pharmaceuticals, inc"
+asthma,anti-inflammatory agents,cipro,"physicians total care, inc."
+atherosclerosis,anti-inflammatory agents,cipro,"physicians total care, inc."
+cortisol resistance,anti-inflammatory agents,cipro,"physicians total care, inc."
+malaria,anti-inflammatory agents,cipro,"physicians total care, inc."
+obesity,anti-inflammatory agents,cipro,"physicians total care, inc."
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,cipro,"physicians total care, inc."
+"atherosclerosis, susceptibility to",anti-inflammatory agents,cipro,"physicians total care, inc."
+"malaria, resistance to, 248310",anti-inflammatory agents,cipro,"physicians total care, inc."
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,cipro,"physicians total care, inc."
+asthma,anti-inflammatory agents,cipro,"alcon laboratories, inc."
+atherosclerosis,anti-inflammatory agents,cipro,"alcon laboratories, inc."
+cortisol resistance,anti-inflammatory agents,cipro,"alcon laboratories, inc."
+malaria,anti-inflammatory agents,cipro,"alcon laboratories, inc."
+obesity,anti-inflammatory agents,cipro,"alcon laboratories, inc."
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,cipro,"alcon laboratories, inc."
+"atherosclerosis, susceptibility to",anti-inflammatory agents,cipro,"alcon laboratories, inc."
+"malaria, resistance to, 248310",anti-inflammatory agents,cipro,"alcon laboratories, inc."
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,cipro,"alcon laboratories, inc."
+asthma,anti-inflammatory agents,cipro hc,stat rx usa
+atherosclerosis,anti-inflammatory agents,cipro hc,stat rx usa
+cortisol resistance,anti-inflammatory agents,cipro hc,stat rx usa
+malaria,anti-inflammatory agents,cipro hc,stat rx usa
+obesity,anti-inflammatory agents,cipro hc,stat rx usa
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,cipro hc,stat rx usa
+"atherosclerosis, susceptibility to",anti-inflammatory agents,cipro hc,stat rx usa
+"malaria, resistance to, 248310",anti-inflammatory agents,cipro hc,stat rx usa
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,cipro hc,stat rx usa
+asthma,anti-inflammatory agents,first dukes mouthwash compounding,"cutispharma, inc."
+atherosclerosis,anti-inflammatory agents,first dukes mouthwash compounding,"cutispharma, inc."
+cortisol resistance,anti-inflammatory agents,first dukes mouthwash compounding,"cutispharma, inc."
+malaria,anti-inflammatory agents,first dukes mouthwash compounding,"cutispharma, inc."
+obesity,anti-inflammatory agents,first dukes mouthwash compounding,"cutispharma, inc."
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,first dukes mouthwash compounding,"cutispharma, inc."
+"atherosclerosis, susceptibility to",anti-inflammatory agents,first dukes mouthwash compounding,"cutispharma, inc."
+"malaria, resistance to, 248310",anti-inflammatory agents,first dukes mouthwash compounding,"cutispharma, inc."
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,first dukes mouthwash compounding,"cutispharma, inc."
+asthma,anti-inflammatory agents,first marys mouthwash compounding,"cutispharma, inc."
+atherosclerosis,anti-inflammatory agents,first marys mouthwash compounding,"cutispharma, inc."
+cortisol resistance,anti-inflammatory agents,first marys mouthwash compounding,"cutispharma, inc."
+malaria,anti-inflammatory agents,first marys mouthwash compounding,"cutispharma, inc."
+obesity,anti-inflammatory agents,first marys mouthwash compounding,"cutispharma, inc."
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,first marys mouthwash compounding,"cutispharma, inc."
+"atherosclerosis, susceptibility to",anti-inflammatory agents,first marys mouthwash compounding,"cutispharma, inc."
+"malaria, resistance to, 248310",anti-inflammatory agents,first marys mouthwash compounding,"cutispharma, inc."
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,first marys mouthwash compounding,"cutispharma, inc."
+asthma,anti-inflammatory agents,hydrocortisone,a-s medication solutions llc
+atherosclerosis,anti-inflammatory agents,hydrocortisone,a-s medication solutions llc
+cortisol resistance,anti-inflammatory agents,hydrocortisone,a-s medication solutions llc
+malaria,anti-inflammatory agents,hydrocortisone,a-s medication solutions llc
+obesity,anti-inflammatory agents,hydrocortisone,a-s medication solutions llc
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,hydrocortisone,a-s medication solutions llc
+"atherosclerosis, susceptibility to",anti-inflammatory agents,hydrocortisone,a-s medication solutions llc
+"malaria, resistance to, 248310",anti-inflammatory agents,hydrocortisone,a-s medication solutions llc
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,hydrocortisone,a-s medication solutions llc
+asthma,anti-inflammatory agents,premier value,chain drug consortium
+atherosclerosis,anti-inflammatory agents,premier value,chain drug consortium
+cortisol resistance,anti-inflammatory agents,premier value,chain drug consortium
+malaria,anti-inflammatory agents,premier value,chain drug consortium
+obesity,anti-inflammatory agents,premier value,chain drug consortium
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,premier value,chain drug consortium
+"atherosclerosis, susceptibility to",anti-inflammatory agents,premier value,chain drug consortium
+"malaria, resistance to, 248310",anti-inflammatory agents,premier value,chain drug consortium
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,premier value,chain drug consortium
+asthma,anti-inflammatory agents,cortizone 10 poison ivy relief pads,"chattem, inc."
+atherosclerosis,anti-inflammatory agents,cortizone 10 poison ivy relief pads,"chattem, inc."
+cortisol resistance,anti-inflammatory agents,cortizone 10 poison ivy relief pads,"chattem, inc."
+malaria,anti-inflammatory agents,cortizone 10 poison ivy relief pads,"chattem, inc."
+obesity,anti-inflammatory agents,cortizone 10 poison ivy relief pads,"chattem, inc."
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,cortizone 10 poison ivy relief pads,"chattem, inc."
+"atherosclerosis, susceptibility to",anti-inflammatory agents,cortizone 10 poison ivy relief pads,"chattem, inc."
+"malaria, resistance to, 248310",anti-inflammatory agents,cortizone 10 poison ivy relief pads,"chattem, inc."
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,cortizone 10 poison ivy relief pads,"chattem, inc."
+asthma,anti-inflammatory agents,family wellness hydrocortisone,family dollar services inc
+atherosclerosis,anti-inflammatory agents,family wellness hydrocortisone,family dollar services inc
+cortisol resistance,anti-inflammatory agents,family wellness hydrocortisone,family dollar services inc
+malaria,anti-inflammatory agents,family wellness hydrocortisone,family dollar services inc
+obesity,anti-inflammatory agents,family wellness hydrocortisone,family dollar services inc
+"asthma, dimished response to antileukotriene treatment in, 600807",anti-inflammatory agents,family wellness hydrocortisone,family dollar services inc
+"atherosclerosis, susceptibility to",anti-inflammatory agents,family wellness hydrocortisone,family dollar services inc
+"malaria, resistance to, 248310",anti-inflammatory agents,family wellness hydrocortisone,family dollar services inc
+"obesity, adrenal insufficiency, and red hair",anti-inflammatory agents,family wellness hydrocortisone,family dollar services inc
+asthma,anti-inflammatory agents,pramosone e,"ferndale laboratories, inc."

@@ -1,0 +1,1077 @@
+/* ===== Dracula Theme Variables ===== */
+:root {
+    /* Dracula Color Palette */
+    --background: #282a36;
+    --current-line: #44475a;
+    --foreground: #f8f8f2;
+    --comment: #6272a4;
+    --cyan: #8be9fd;
+    --green: #50fa7b;
+    --orange: #ffb86c;
+    --pink: #ff79c6;
+    --purple: #8617c2;
+    --red: #ff5555;
+    --yellow: #f1fa8c;
+
+    /* Derived Colors */
+    --primary-color: var(--purple);
+    --primary-dark: #6a3cb5;
+    --primary-darker: #4a2b8a;
+    --accent-color: var(--green);
+    --neutral-color: var(--comment);
+
+    /* Text Colors */
+    --text-dark: var(--foreground);
+    --text-medium: #e2e2dc;
+    --text-light: #ffffff;
+
+    /* Backgrounds */
+    --bg-primary: var(--background);
+    --bg-panel: var(--current-line);
+    --bg-hover: rgba(189, 147, 249, 0.1);
+
+    /* Borders */
+    --border-color: rgba(139, 233, 253, 0.3);
+    --border-radius: 8px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 15px rgba(0, 0, 0, 0.5);
+
+    /* Transitions */
+    --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Spacing */
+    --spacing-xs: 6px;
+    --spacing-sm: 10px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+}
+
+/* ===== Global Styles ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: var(--background);
+    color: var(--foreground);
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* ===== App Layout ===== */
+.app-container {
+    display: flex;
+    height: 100vh;
+    padding: var(--spacing-md);
+    gap: var(--spacing-md);
+    background-color: var(--background);
+}
+
+.left-panel {
+    flex: 0 0 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-panel {
+    flex: 0 0 240px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+/* ===== Panel Styles ===== */
+.panel-base {
+    background: var(--current-line);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.panel-base:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.panel-header {
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-bottom: 1px solid var(--border-color);
+    background: var(--current-line);
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.panel-title {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--foreground);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    letter-spacing: 0.02em;
+}
+
+.panel-icon {
+    color: var(--cyan);
+    font-size: 0.95em;
+}
+
+.panel-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: var(--spacing-md);
+    background-color: var(--background);
+}
+
+/* ===== Button Styles ===== */
+/* ===== Button Styles ===== */
+button {
+    padding: 10px 18px;
+    background: var(--purple);
+    color: var(--foreground);
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.87rem;
+    cursor: pointer;
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    /* Increased gap between icon and text */
+    box-shadow: var(--shadow-sm);
+    width: 100%;
+    /* Make buttons full width */
+    text-align: left;
+    /* Align text left */
+    margin-bottom: 12px;
+    /* Add vertical spacing between buttons */
+}
+
+button:last-child {
+    margin-bottom: 0;
+    /* Remove margin from last button */
+}
+
+button:hover {
+    background: var(--primary-dark);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+button.secondary {
+    background: var(--current-line);
+    color: var(--foreground);
+    border: 1px solid var(--purple);
+}
+
+button.secondary:hover {
+    background: var(--background);
+    border-color: var(--cyan);
+}
+
+/* Override for action panel buttons if you have a wrapper */
+/* ===== Table Styles ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--current-line);
+    color: var(--foreground);
+}
+
+th {
+    background-color: var(--primary-darker);
+    color: var(--background);
+    text-align: left;
+    padding: var(--spacing-sm);
+}
+
+td {
+    padding: var(--spacing-sm);
+    border-top: 1px solid var(--border-color);
+}
+
+tr:hover {
+    background-color: var(--bg-hover);
+}
+
+/* ===== Message Panel Styles ===== */
+.message-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.message-item {
+    padding: var(--spacing-sm);
+    background: var(--current-line);
+    border-radius: 8px;
+    font-size: 0.86rem;
+    border-left: 3px solid var(--purple);
+    box-shadow: var(--shadow-sm);
+    color: var(--foreground);
+}
+
+.message-item.error {
+    border-left-color: var(--red);
+    background: rgba(255, 85, 85, 0.1);
+}
+
+/* ===== Code Panel Styles ===== */
+.code-panel {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.84rem;
+    background: var(--current-line);
+    color: var(--foreground);
+}
+
+pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: var(--foreground);
+}
+
+
+/* ===== Draggable Elements ===== */
+
+
+/* ===== Responsive Design ===== */
+@media (max-width: 1200px) {
+    .app-container {
+        flex-direction: column;
+    }
+
+    .left-panel, .center-panel, .right-panel {
+        width: 100%;
+    }
+
+    .right-panel {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    .right-panel {
+        flex-direction: column;
+    }
+
+    .panel-header {
+        padding: 10px 14px;
+    }
+
+    .panel-content {
+        padding: 12px;
+    }
+
+    button {
+        padding: 8px 14px;
+        font-size: 0.82rem;
+    }
+}
+
+/* ===== Animations ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.diagram-element {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Update the button styles in style.css */
+.action-panel button {
+    margin-bottom: 12px;
+    /* Adds space below each button */
+    width: 100%;
+    /* Makes buttons full width */
+}
+
+/* Remove margin from last button to avoid extra space */
+.action-panel button:last-child {
+    margin-bottom: 0;
+}
+
+
+
+/* Output Panel Styles */
+.output-panel {
+    padding: 16px;
+    background-color: #282a36;
+    /* Dracula background */
+    color: #f8f8f2;
+    /* Dracula foreground */
+    height: 100%;
+    position: relative;
+}
+
+.output-panel h2 {
+    color: #8be9fd;
+    /* Dracula cyan */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #44475a;
+    /* Dracula current line */
+    padding-bottom: 8px;
+}
+
+.output-section {
+    margin-bottom: 24px;
+}
+
+.output-section h3 {
+    color: #ff79c6;
+    /* Dracula pink */
+    font-size: 1rem;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.output-section h3::before {
+    content: "▸";
+    color: #bd93f9;
+    /* Dracula purple */
+    margin-right: 8px;
+}
+
+.output-items {
+    padding-left: 20px;
+}
+
+.output-item {
+    color: #f8f8f2;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 16px;
+}
+
+.output-item strong {
+    color: #50fa7b;
+    /* Dracula green */
+    font-weight: 600;
+}
+
+/* Status indicators */
+.connection-status {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    font-size: 0.9rem;
+    color: #f8f8f2;
+}
+
+.connection-status-icon {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.connection-active {
+    background-color: #50fa7b;
+    /* Dracula green */
+}
+
+.connection-inactive {
+    background-color: #ff5555;
+    /* Dracula red */
+}
+
+/* Draggable step styling */
+
+
+/* ===== Updated Table Styles ===== */
+.normalized-tables {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+}
+
+.normalized-tables button {
+    background: var(--current-line);
+    border: 1px solid var(--border-color);
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.normalized-tables button:hover {
+    background: var(--bg-hover);
+    border-color: var(--cyan);
+}
+
+/* Table container */
+.table-view {
+    padding: var(--spacing-md);
+    height: 100%;
+    overflow: auto;
+}
+
+/* Table element */
+.table-view table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--bg-panel);
+    color: var(--foreground);
+}
+
+.table-view th {
+    background: var(--primary-darker);
+    color: var(--text-light);
+    position: sticky;
+    top: 0;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.table-view td {
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-panel);
+}
+
+.table-view tr:hover td {
+    background: var(--bg-hover);
+}
+
+/* Ensure table container allows scrolling */
+.table-container {
+    overflow: auto;
+    max-height: calc(100vh - 200px);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+}
+
+/* Make sure headers are visible */
+.table-view thead {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.message-panel {
+    background-color: #1e1e2f;
+    /* Dark background */
+    padding: 5px;
+    border-radius: 8px;
+    color: #9d9d9d;
+}
+
+.messages-list {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 12px;
+}
+
+.message-item {
+    background-color: #2e2e3e;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.normalized-tables .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.dropdown-toggle {
+    background-color: #3a3a5a;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+    background-color: #4a4a6a;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2e2e3e;
+    min-width: 180px;
+    border-radius: 4px;
+    padding: 6px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px;
+    color: #f0f0f0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu li:hover {
+    background-color: #444466;
+}
+
+.er-diagram-button {
+    background-color: #3a3a5a;
+    color: white;
+    padding: 8px 14px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.er-diagram-button:hover {
+    background-color: #4a4a6a;
+}
+
+
+/* Horizontal resize handles */
+.resize-handle-x {
+    width: 6px;
+    cursor: col-resize;
+    background: rgba(255, 255, 255, 0.1);
+    user-select: none;
+    z-index: 1000;
+}
+
+.resize-handle-x:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Vertical resize handle between messages and code */
+.resize-handle-y {
+    height: 6px;
+    cursor: row-resize;
+    background: rgba(255, 255, 255, 0.1);
+    user-select: none;
+    z-index: 1000;
+}
+
+.resize-handle-y:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Ensure flex children don't shrink unexpectedly */
+.left-panel, .center-panel, .right-panel {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Messages and code panel wrappers for vertical resizing */
+.right-panel>div {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Reduce scrollbar width and style for .messages-list */
+
+/* For WebKit browsers (Chrome, Edge, Safari) */
+.messages-list::-webkit-scrollbar {
+    width: 2px;
+    /* thinner scrollbar */
+    height: 6px;
+    /* if horizontal scrollbar appears */
+}
+
+.messages-list::-webkit-scrollbar-track {
+    background: transparent;
+    /* or keep as is */
+}
+
+.messages-list::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    /* lighter thumb */
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+/* For Firefox */
+.messages-list {
+    scrollbar-width: thin;
+    /* makes scrollbar thinner */
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+    /* thumb color and track */
+}
+
+/* Scrollbar styling for message and code panels */
+
+/* WebKit browsers */
+.messages-list::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.code-panel::-webkit-scrollbar {
+    width: 6px;
+}
+
+.messages-list::-webkit-scrollbar-track,
+.code-panel::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.messages-list::-webkit-scrollbar-thumb,
+.code-panel::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+/* Firefox */
+.messages-list,
+.code-panel {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+
+/* ===== Global scrollbar styles for all panels ===== */
+
+/* WebKit browsers (Chrome, Edge, Safari) */
+.panel-content::-webkit-scrollbar,
+.output-panel::-webkit-scrollbar,
+.table-container::-webkit-scrollbar,
+.normalized-tables::-webkit-scrollbar {
+    width: 4px;
+    /* thin scrollbar */
+    height: 4px;
+}
+
+.panel-content::-webkit-scrollbar-track,
+.output-panel::-webkit-scrollbar-track,
+.table-container::-webkit-scrollbar-track,
+.normalized-tables::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.panel-content::-webkit-scrollbar-thumb,
+.output-panel::-webkit-scrollbar-thumb,
+.table-container::-webkit-scrollbar-thumb,
+.normalized-tables::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+/* Firefox */
+.panel-content,
+.output-panel,
+.table-container,
+.normalized-tables {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+
+
+/* ===== Action Panel Specific Styles ===== */
+.action-panel {
+    background-color: var(--current-line);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-md);
+    box-shadow: var(--shadow-sm);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-panel-header {
+    padding-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.action-panel-title {
+    color: var(--foreground);
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.action-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+    flex: 1;
+}
+
+.action-column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.action-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-sm);
+    background-color: var(--background);
+    border-radius: 50px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: var(--transition);
+    text-align: center;
+    height: 100px;
+}
+
+.action-button:hover {
+    background-color: var(--bg-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.action-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.2rem;
+}
+
+
+/* Color-specific icon backgrounds */
+.action-button[data-color="blue"] .action-icon {
+    background-color: var(--cyan);
+}
+
+.action-button[data-color="green"] .action-icon {
+    background-color: var(--green);
+}
+
+.action-button[data-color="yellow"] .action-icon {
+    background-color: var(--yellow);
+    color: var(--background);
+}
+
+.action-button[data-color="purple"] .action-icon {
+    background-color: var(--purple);
+}
+
+.action-button[data-color="pink"] .action-icon {
+    background-color: var(--pink);
+}
+
+.action-button[data-color="red"] .action-icon {
+    background-color: var(--red);
+}
+
+.action-button[data-color="orange"] .action-icon {
+    background-color: var(--orange);
+    color: var(--background);
+}
+
+/* File input styling */
+.action-file-input {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .action-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .action-button {
+        height: 80px;
+    }
+
+    .action-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 1rem;
+    }
+
+    .action-label {
+        font-size: 0.20rem;
+    }
+}
+
+
+/* Add this to your CSS */
+.action-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    /* slightly less gap */
+    padding: 8px 10px;
+    background: var(--current-line);
+    border-radius: 8px;
+    cursor: pointer;
+    height: 72px;
+    /* reduced height */
+    border: 1px solid var(--border-color);
+    transition: var(--transition);
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.action-button:hover {
+    background-color: var(--bg-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.action-icon {
+    width: 22px;
+    /* smaller icon */
+    height: 22px;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    /* gap handled by flex gap */
+    font-size: 1rem;
+}
+
+.action-label {
+    font-size: 0.6rem;
+    /* smaller font size */
+    color: var(--foreground);
+    font-weight: 300;
+    opacity: 0.9;
+    /* reduced opacity */
+    white-space: normal;
+    line-height: 1.2;
+    padding: 0 4px;
+}
+
+
+.action-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 12px;
+    margin: 6px 0;
+    background-color: var(--current-line);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.action-button:hover {
+    transform: translateY(-2px);
+}
+
+
+/* ===== TableView Container ===== */
+.table-view-container {
+    padding: 20px;
+    color: var(--foreground);
+    font-family: Arial, sans-serif;
+}
+
+
+.table-wrapper::-webkit-scrollbar {
+    width: 6px;
+    /* reduced width */
+    height: 6px;
+    /* reduced height for horizontal scrollbar */
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+    background: var(--background, #282a36);
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: var(--comment, #6272a4);
+    border-radius: 5px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: var(--purple, #bd93f9);
+}
+
+/* Firefox support */
+.table-wrapper {
+
+    scrollbar-color: var(--comment, #6272a4) var(--background, #282a36);
+}
+
+
+.dracula-button {
+    padding: 4px 8px !important;
+    font-size: 12px !important;
+    background-color: #44475a !important;
+    color: #f8f8f2 !important;
+    border: 1px solid #6272a4 !important;
+    cursor: pointer !important;
+}
+
+
+
+/* dotted background */
+.output-panel {
+    background-color: #1d2c3d;
+    background-image: radial-gradient(circle at 0.8px 0.8px, rgba(177, 172, 171, 0.307) 1px, transparent 1px);
+    background-size: 15px 15px;
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, 0);
+}
+
+/* zoom buttons in top-right */
+.zoom-controls {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 40;
+    align-items: center;
+}
+
+.zoom-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    backdrop-filter: blur(4px);
+    transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.zoom-btn:hover {
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-1px);
+}
+
+
+.output-panel {
+    /* full container with scroll if content overflows */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+    padding: 1px;
+}
+
+.canvas-wrapper {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+}
+
+.draggable-node {
+    position: absolute;
+    min-width: 140px;
+    /* minimum width */
+    max-width: max-content;
+    /* allows width to fit text without wrapping */
+    height: 40px;
+    background: #c7d9f5;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    color: #092833;
+    user-select: none;
+    cursor: grab;
+    padding: 0 30px;
+    box-sizing: border-box;
+    /* transition for smooth dragging */
+    transition: box-shadow 0.15s ease-in-out;
+    white-space: nowrap;
+}
+
+
+.draggable-node:active {
+    cursor: grabbing;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+}
+
+.connection-dot {
+    width: 12px;
+    height: 12px;
+    background: #115153;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(17, 87, 90, 0.6);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.left-dot {
+    left: -6px;
+}
+
+.right-dot {
+    right: -7px;
+}
+
+.zoom-controls button {
+    background: #114861;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.zoom-controls button:hover {
+    background: #0d3f3c;
+}

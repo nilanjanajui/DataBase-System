@@ -97,8 +97,21 @@ By completing these projects, you gain:
 ## 🖼 Project Previews
 
 ### DataBase Design Studio
+**ER Diagram:**  
 ![DB Studio ER](./DataBase%20Design%20Studio/assets/ER_Diagram.png)  
-![DB Studio Workflow UI](./DataBase%20Design%20Studio/assets/Workflow.png)
+
+**Workflow / UI:**  
+![DB Studio Workflow](./DataBase%20Design%20Studio/assets/Workflow.png)  
+
+---
+
+### Drug Network DB System
+**ER Diagram:**  
+![Drug Network ER](./Drug%20Network%20DB%20System/ER%20Diagram/DRUGs%20ER%20Diagram.pdf)  
+
+**UI / Output Preview (if available):**  
+![Procedure Flowchart](./Drug%20Network%20DB%20System/ER%20Diagram/procedure_flowchart.drawio.pdf)
+
 
 
 ---

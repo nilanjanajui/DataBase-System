@@ -86,13 +86,6 @@ This project was designed to transform a messy and redundant clinical data sprea
 - Draw.io (for ER diagrams)  
 - LaTeX (for report and proofs)
 
-##  Screenshots
-
-Include:
-- ER diagram  
-- Flowchart  
-- Table sample  
-- Query output (e.g. drug_id with most trials)
 
 ## Author
 

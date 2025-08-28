@@ -107,10 +107,10 @@ By completing these projects, you gain:
 
 ### Drug Network DB System
 **ER Diagram:**  
-![Drug Network ER](./Drug%20Network%20DB%20System/ER%20Diagram/DRUGs%20ER%20Diagram.pdf)  
+![Drug Network ER](./Drug%20Network%20DB%20System/ER%20Diagram/ER.png)  
 
 **UI / Output Preview (if available):**  
-![Procedure Flowchart](./Drug%20Network%20DB%20System/ER%20Diagram/procedure_flowchart.drawio.pdf)
+![Procedure Flowchart](./Drug%20Network%20DB%20System/ER%20Diagram/Flowchart.png)
 
 
 

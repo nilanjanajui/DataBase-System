@@ -45,7 +45,7 @@ All projects follow a **structured workflow**:
 | Project Name | Description | Modules / Features | ER Diagram / UI |
 |--------------|------------|-----------------|----------------|
 | **DataBase Design Studio** | Database design and normalization demonstration | ER modeling, relational schema creation, normalization step-by-step | [ER Diagram](./DataBase%20Design%20Studio/assets/ER_Diagram.png), [Workflow UI](./DataBase%20Design%20Studio/assets/Workflow.png) |
-| **Drug Network DB System** | Drug, disease, side-effects, and clinical trials relational DB | Drug interactions, disease mapping, side-effect tracking, clinical trial logs | [ER Diagram](./Drug%20Network%20DB%20System/ER%20Diagram/DRUGs%20ER%20Diagram.png) |
+| **Drug Network DB System** | Drug, disease, side-effects, and clinical trials relational DB | Drug interactions, disease mapping, side-effect tracking, clinical trial logs | [ER Diagram](./Drug%20Network%20DB%20System/ER%20Diagram/DRUGs%20ER%20Diagram.pdf) |
 
 
 ---

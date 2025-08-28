@@ -109,7 +109,7 @@ By completing these projects, you gain:
 **ER Diagram:**  
 ![Drug Network ER](./Drug%20Network%20DB%20System/ER%20Diagram/ER.png)  
 
-**UI / Output Preview (if available):**  
+**WorkFlow**  
 ![Procedure Flowchart](./Drug%20Network%20DB%20System/ER%20Diagram/Flowchart.png)
 
 

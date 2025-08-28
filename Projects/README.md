@@ -42,15 +42,10 @@ All projects follow a **structured workflow**:
 
 ## 🔹 Projects & Modules
 
-| Project Name | Description | Modules / Features | ER Diagram | SQL / Output |
+| Project Name | Description | Modules / Features | ER Diagram/ UI |
 |--------------|------------|-----------------|------------|-------------|
-| **DataBase Design Studio** | Database design and normalization demonstration | ER modeling, relational schema creation, normalization step-by-step | [View](./assets/database_design_studio_er.png) | [View](./assets/database_design_studio_sql.png) |
-| **Drug Network DB System** | Drug, disease, side-effects, and clinical trials relational DB | Drug interactions, disease mapping, side-effect tracking, clinical trial logs | [View](./assets/drug_network_db_er.png) | [View](./assets/drug_network_db_sql.png) |
-| **React-based DBMS Workflow System** | Frontend React system integrating DBMS logic | Draggable workflow blocks, connected pipelines, code panel, table viewer, dynamic ER diagrams | [Preview](./assets/react_dbms_workflow.png) | [Preview](./assets/react_dbms_sql.png) |
-| **Library Management System** | Manage books, members, and borrowings | Book inventory, member registration, borrowing & fines module | [View](./assets/library_er.png) | [View](./assets/library_sql.png) |
-| **Hospital Management System** | Patient and appointment management | Patient records, doctor schedules, treatment logs, billing | [View](./assets/hospital_er.png) | [View](./assets/hospital_sql.png) |
-
-> ⚠️ Replace the links with actual screenshots stored in the `assets/` folder.
+| **DataBase Design Studio** | Database design and normalization demonstration | ER modeling, relational schema creation, normalization step-by-step | [View](./DataBase Design Studio/assets/ER_Diagram.png), [View](./DataBase Design Studio/assets/Workflow.png) |
+| **Drug Network DB System** | Drug, disease, side-effects, and clinical trials relational DB | Drug interactions, disease mapping, side-effect tracking, clinical trial logs | [View](./Drug Network DB System/ER Diagram/DRUGs ER Diagram.png) |
 
 ---
 
@@ -101,8 +96,8 @@ By completing these projects, you gain:
 ## 🖼 Project Previews
 
 ### DataBase Design Studio
-![DB Studio ER](./assets/ER_Diagram.png)  
-![DB Studio_UI](./assets/Workflow.png)
+![DB Studio ER](./DataBase Design Studio/assets/ER_Diagram.png)  
+![DB Studio_UI](./DataBase Design Studio/assets/ER_Diagram.png)
 
 
 ---

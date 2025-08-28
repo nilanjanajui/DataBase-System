@@ -1,60 +1,117 @@
-# 📂 Database Systems Projects
+# 📂 Database Systems & Application Projects
 
 [![Oracle](https://img.shields.io/badge/Database-Oracle-orange?style=flat-square&logo=oracle&logoColor=white)](https://www.oracle.com/database/) 
 [![MySQL](https://img.shields.io/badge/Database-MySQL-blue?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/) 
 [![SQL](https://img.shields.io/badge/Language-SQL-blue?style=flat-square&logo=sql&logoColor=white)](https://www.sql.org/) 
 [![PL/SQL](https://img.shields.io/badge/Language-PL/SQL-lightgrey?style=flat-square)](https://www.oracle.com/plsql/) 
-[![ERD Tools](https://img.shields.io/badge/ERD-draw.io-red?style=flat-square)](https://www.diagrams.net/) 
+[![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=flat-square&logo=react&logoColor=white)](https://react.dev/) 
+[![Draw.io](https://img.shields.io/badge/ERD-draw.io-red?style=flat-square)](https://www.diagrams.net/) 
 [![dbdiagram.io](https://img.shields.io/badge/ERD-dbdiagram.io-007ACC?style=flat-square)](https://dbdiagram.io/)
 
 ---
 
 ## 🔹 Overview
 
-Welcome to the **Database Systems Projects** repository!  
-Here you'll find a collection of **hands-on projects** demonstrating:
+This repository is a **comprehensive portfolio** showcasing **database system projects and application-level implementations**.  
+Projects include **ER modeling, relational design, normalization, SQL implementation**, and **React-based systems** using DBMS logic.
 
-- Database **design & modeling**
-- **Relational schemas** creation
-- Step-by-step **normalization** (1NF → BCNF)
-- **SQL implementation** including queries, triggers, and procedures  
+**Highlights:**
 
-Each project highlights a **structured approach** to building **robust, scalable, and efficient database systems**.
+- Database design and normalization (1NF → BCNF)  
+- Full SQL implementation with triggers, procedures, and queries  
+- ER diagrams using Draw.io and dbdiagram.io  
+- React-based system design demonstrating database-driven workflows  
+- Professional project documentation and reports  
 
 ---
 
-## 🔹 Project Highlights
+## 🔹 Project Workflow
 
-- **📊 ER Diagrams**  
-  Conceptual designs using the **Entity-Relationship (ER) model)** to visualize data structures and relationships.
+All projects follow a **structured workflow**:
 
-- **📜 Relational Schemas**  
-  Mapping ER models into **relational schemas**, maintaining integrity and efficiency.
+1. **Requirement Analysis:** Understand the project scenario and data needs.  
+2. **Conceptual Design:** Create ER diagrams to visualize entities and relationships.  
+3. **Logical Design:** Map ER diagrams into relational schemas with **PKs and FKs**.  
+4. **Normalization:** Apply **1NF → BCNF** for integrity and efficiency.  
+5. **SQL Implementation:** Write scripts for table creation, data insertion, queries, triggers, and stored procedures.  
+6. **Frontend Integration (if applicable):** Build React interfaces consuming DBMS logic via APIs.  
+7. **Testing & Validation:** Ensure data consistency and functionality.  
+8. **Documentation:** Detailed reports with diagrams, SQL code, and system explanations.
 
-- **🧩 Normalization**  
-  Stepwise normalization from **1NF → BCNF**, with detailed justifications for each step.
+---
 
-- **💻 SQL Scripts**  
-  Includes **table creation**, **data insertion**, **queries**, **triggers**, and **stored procedures**.
+## 🔹 Projects & Modules
 
-- **📝 Project Reports**  
-  Well-documented reports detailing **objectives**, **methodology**, and **key learnings**.
+| Project Name | Description | Modules / Features | ER Diagram | SQL / Output |
+|--------------|------------|-----------------|------------|-------------|
+| **DataBase Design Studio** | Database design and normalization demonstration | ER modeling, relational schema creation, normalization step-by-step | [View](./assets/database_design_studio_er.png) | [View](./assets/database_design_studio_sql.png) |
+| **Drug Network DB System** | Drug, disease, side-effects, and clinical trials relational DB | Drug interactions, disease mapping, side-effect tracking, clinical trial logs | [View](./assets/drug_network_db_er.png) | [View](./assets/drug_network_db_sql.png) |
+| **React-based DBMS Workflow System** | Frontend React system integrating DBMS logic | Draggable workflow blocks, connected pipelines, code panel, table viewer, dynamic ER diagrams | [Preview](./assets/react_dbms_workflow.png) | [Preview](./assets/react_dbms_sql.png) |
+| **Library Management System** | Manage books, members, and borrowings | Book inventory, member registration, borrowing & fines module | [View](./assets/library_er.png) | [View](./assets/library_sql.png) |
+| **Hospital Management System** | Patient and appointment management | Patient records, doctor schedules, treatment logs, billing | [View](./assets/hospital_er.png) | [View](./assets/hospital_sql.png) |
+
+> ⚠️ Replace the links with actual screenshots stored in the `assets/` folder.
+
+---
+
+## 🧩 Project Highlights
+
+- **📊 ER Diagrams:** Conceptual designs to visualize **entities, attributes, and relationships**.  
+- **📜 Relational Schemas:** Relational mapping from ER diagrams with **PKs and FKs**.  
+- **🧩 Normalization:** Stepwise normalization (1NF → BCNF) with **justifications**.  
+- **💻 SQL Scripts:** Complete implementation including:
+  - Table creation & data insertion  
+  - Complex queries & joins  
+  - Triggers & stored procedures  
+  - Views for simplified data access  
+- **⚛️ React-based Interfaces:** Interactive dashboards and workflow visualizers using **DBMS logic**, including:
+  - Draggable workflow nodes  
+  - Dynamic code panels and table viewers  
+  - Real-time ER diagram rendering from database  
+- **📝 Documentation:** Reports detailing **objectives, methodologies, SQL scripts, normalization steps, and learnings**.
 
 ---
 
 ## 🛠 Tools & Technologies
 
-| Category      | Tools / Technologies       |
-|---------------|---------------------------|
-| Databases     | Oracle, MySQL             |
-| ERD Tools     | dbdiagram.io, Draw.io     |
-| Languages     | SQL, PL/SQL               |
-| Documentation | Markdown, PDF             |
+| Category       | Tools / Technologies |
+|----------------|-------------------|
+| Databases      | Oracle, MySQL     |
+| ERD Tools      | Draw.io, dbdiagram.io |
+| Frontend       | React, HTML, CSS, JS |
+| Languages      | SQL, PL/SQL, JavaScript |
+| Documentation  | Markdown, PDF     |
+| Others         | GitHub, VS Code, Postman |
+
+---
+
+## 🎯 Skills & Learning Outcomes
+
+By completing these projects, you gain:
+
+- Strong **conceptual understanding of database design**  
+- Expertise in **SQL programming** and **relational modeling**  
+- Ability to **normalize databases** and enforce integrity constraints  
+- Knowledge of **triggers, procedures, and database-driven workflows**  
+- Hands-on experience with **React frontends integrated with DBMS logic**  
+- Professional **documentation and portfolio presentation skills**
+
+---
+
+## 🖼 Project Previews
+
+### DataBase Design Studio
+![DB Studio ER](./assets/ER_Diagram.png)  
+![DB Studio_UI](./assets/Workflow.png)
+
 
 ---
 
 ## 🚀 Why This Repository?
 
-This repository is a **complete showcase of database systems skills**, bridging the gap between theory and real-world implementation.  
-Projects are carefully structured, demonstrating **best practices in design, normalization, and SQL programming**.
+This repository demonstrates a **portfolio of advanced database projects**:
 
+- **Theory → Practice:** Apply database concepts to real-world scenarios.  
+- **Full-stack Experience:** Integrate DBMS logic with **React frontend systems**.  
+- **Best Practices:** Follow systematic design, normalization, and SQL implementation.  
+- **Professional Portfolio:** Well-documented, visual, and interactive projects perfect for showcasing **skills to recruiters, educators, or potential collaborators**.
